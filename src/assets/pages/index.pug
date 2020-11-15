@@ -1,0 +1,14 @@
+extends ../includes/mothership.pug
+
+append vars
+  - var title = 'Index'
+  - var description = 'Page index'
+
+block content
+  include ./index/slider
+  include ./index/cards
+  include ./index/about
+  include ./index/tabs
+  include ./index/form
+
+

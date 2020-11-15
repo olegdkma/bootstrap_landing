@@ -1,0 +1,36 @@
+section.contact.container-fluid
+    p.title.text-center Зв’язатися з нами
+    p.subtitle.text-center У вас залишились питання? Напишіть нам.
+        .container.contact__container
+            .row
+                .col-12.col-lg-5
+                    .inner
+                        nav.nav.contact__contacts.flex-column
+                            p.d-flex.align-items-center
+                                img(src='./assets/img/pin.png')
+                                | Київ
+                            p.d-flex.align-items-center
+                                img(src='./assets/img/time.png')
+                                | Пн-Пт 9:00-18:00
+                            p.d-flex.align-items-center
+                                img(src='./assets/img/ph.png')
+                                | 8 (066) 222-33-44
+                            p.d-flex.align-items-center
+                                img(src='./assets/img/mail.png')
+                                | order@test.ua
+
+                .col-12.col-lg-7.contact-form
+                    .row
+                        .col-12.col-lg-6.contact__name.flex-column.d-flex
+                            label Им`я
+                            input(placeholder="Іван")
+                        .col-12.col-lg-6.flex-column.d-flex.p-0
+                            label Прізвище
+                            input(placeholder="Іван")
+                        .col-12.flex-column.d-flex.p-0
+                            label Контактний телефон
+                            input(placeholder="380111111111")
+                        .col-12.flex-column.d-flex.p-0
+                            label Повідомлення
+                            textarea(placeholder="Ваше повідомлення")
+                        .contact__btn.btn_blues Надіслати

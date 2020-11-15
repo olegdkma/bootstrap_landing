@@ -1,0 +1,47 @@
+
+$color__dark_text: #333333;
+$color__dark_black: black;
+$open_sans: 'Open Sans', sans-serif;
+$lato: 'Lato', sans-serif;
+body{
+  font-family: $lato;
+  font-weight: 400;
+}
+.title{
+  font-size: 46px;
+  font-family: $open_sans;
+  font-weight: 700;
+  @media (max-width:574px){
+    font-size: 34px;
+  }
+  &_white{
+    color: $color_text_light;
+  }
+  &_gray{
+    color: $color__grey_text;
+  }
+  &_dark{
+    color: $color__dark_text;
+  }
+  &_blue{
+    color: $color__main;
+  }
+  &_bold{
+    font-weight: 900;
+  }
+  &_strong{
+    font-weight: 700;
+  }
+  &_book{
+    font-weight: 500;
+  }
+}
+
+.subtitle{
+  font-size: 24px;
+
+  @media (max-width:574px){
+    font-size: 19px;
+  }
+}
+
